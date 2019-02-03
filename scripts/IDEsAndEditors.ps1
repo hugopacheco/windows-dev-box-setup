@@ -12,13 +12,12 @@ choco install -y vscode
 choco install -y sublimetext3
 # choco install -y sublimemerge # one can hope 
 
-# sql server stuff
-choco install -y sql-server-management-studio
-
 
 choco install -y visualstudio2017professional --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
-
 Update-SessionEnvironment #refreshing env due to Git install
-
 choco install -y visualstudio2017-workload-netweb
 choco install -y visualstudio2017-workload-azure
+
+
+# moved sql server after visual studio because it was failing to install, maybe this will help
+choco install -y sql-server-management-studio

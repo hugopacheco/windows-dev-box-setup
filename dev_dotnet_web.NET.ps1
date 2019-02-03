@@ -30,7 +30,7 @@ executeScript "WebBrowsers.ps1";
 executeScript "CommonDevTools.ps1";
 executeScript "IDEsAndEditors.ps1";
 
-#--- reenabling critial items ---
+#--- reenabling critical items ---
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
