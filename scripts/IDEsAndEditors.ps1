@@ -13,7 +13,7 @@ choco install -y sublimetext3
 # choco install -y sublimemerge # one can hope 
 
 
-choco install -y visualstudio2017professional --package-parameters="'--add Microsoft.VisualStudio.Component.Git'"
+choco install -y visualstudio2017professional
 Update-SessionEnvironment #refreshing env due to Git install
 choco install -y visualstudio2017-workload-netweb
 choco install -y visualstudio2017-workload-azure
