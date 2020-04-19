@@ -22,6 +22,10 @@ function executeScript {
 	iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
+# Setting Chocolatey's cache folder is highly recommended and avoids several issues
+$cacheFolder = $env:LOCALAPPDATA + '\Temp'
+choco config set cacheLocation $cacheFolder
+
 #--- Setting up Windows ---
 executeScript "SystemConfiguration.ps1";
 executeScript "FileExplorerSettings.ps1";

@@ -10,5 +10,5 @@ choco install -y postman
 choco install -y soapui
 
 choco install -y 7zip
-choco install 1password -not-silent #bypass installer problem https://chocolatey.org/packages/1password#comment-4756080391
+choco install -y 1password
 choco install -y paint.net

@@ -56,12 +56,12 @@ $applicationList = @(
 	"*.Duolingo-LearnLanguagesforFree"
 	"*.EclipseManager"
 	"ActiproSoftwareLLC.562882FEEB491" # Code Writer
-	"*.AdobePhotoshopExpress",
-	"*Spotify*",
-	"Microsoft.YourPhone",
-	"Microsoft.Xbox*",
-	"Microsoft.People",
-	"Microsoft.Mixed*",
+	"*.AdobePhotoshopExpress"
+	"*Spotify*"
+	"Microsoft.YourPhone"
+	"Microsoft.Xbox*"
+	"Microsoft.People"
+	"Microsoft.Mixed*"
 	"*3d*"
 );
 
