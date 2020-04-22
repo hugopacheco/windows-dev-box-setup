@@ -2,7 +2,7 @@ choco install -y vscode
 choco install -y sublimetext3
 choco install -y sublimemerge
 
-choco install -y visualstudio2019enterprise
+choco install -y visualstudio2019professional
 Update-SessionEnvironment #refreshing env due to Git install
 choco install -y visualstudio2019-workload-azure
 choco install -y visualstudio2019-workload-netcoretools
