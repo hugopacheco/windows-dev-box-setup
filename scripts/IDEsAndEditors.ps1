@@ -11,3 +11,4 @@ choco install -y visualstudio2019-workload-netweb
 choco install -y sql-server-management-studio
 
 choco install -y resharper
+choco install -y jetbrains-rider
